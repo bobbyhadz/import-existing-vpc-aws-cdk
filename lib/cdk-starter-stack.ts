@@ -21,6 +21,7 @@ export class MyCdkStack extends cdk.Stack {
       runtime: lambda.Runtime.NODEJS_14_X,
       handler: 'main',
       entry: path.join(__dirname, `/../src/my-lambda/index.js`),
+      allowPublicSubnet: true,
     });
   }
 }
