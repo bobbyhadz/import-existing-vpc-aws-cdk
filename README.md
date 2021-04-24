@@ -1,8 +1,7 @@
-# Article name here
+# How to import an Existing VPC in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
-`<- Update Link`
+[bobbyhadz.com](https://bobbyhadz.com/blog/import-existing-vpc-aws-cdk)
 
 ## How to Use
 
