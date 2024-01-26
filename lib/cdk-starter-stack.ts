@@ -18,7 +18,7 @@ export class MyCdkStack extends cdk.Stack {
     const myFunction = new NodejsFunction(this, 'my-function', {
       // 👇 place Lambda in VPC
       vpc: myVpc,
-      runtime: lambda.Runtime.NODEJS_16_X,
+      runtime: lambda.Runtime.NODEJS_18_X,
       handler: 'main',
       entry: path.join(__dirname, `/../src/my-lambda/index.js`),
       allowPublicSubnet: true,
